@@ -1,4 +1,4 @@
-number=int(input("enter how many elements you would want from the series"))
+number=int(input("enter how many elements you would want from the series "))
 n=0
 m=1
 temp=0
