@@ -1,0 +1,23 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[2]:
+
+
+number=int(input("enter how many elements you would want from the series "))
+n=0
+m=1
+temp=0
+i=1
+while(i <= number):
+    if(n == 0 and i == 1):
+        print("number=",i,"\t fibonacci value=",0)
+        i=i+1
+        print("number=",i,"\t fibonacci value=",1)
+    else:
+        temp=m+n
+        n=m
+        m=temp
+        print("number=",i,"\t fibonacci value=",m)
+    i=i+1
+
